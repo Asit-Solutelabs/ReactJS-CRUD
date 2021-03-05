@@ -1,0 +1,14 @@
+.Div{
+   display: flex; 
+   flex-direction: row; 
+   width: 100%;
+}
+
+
+
+@media(max-width:500px){
+    .Div{
+       width: 100vh;
+       flex-direction: column; 
+    }
+}
